@@ -1,4 +1,5 @@
 ﻿using btg_testes_auto;
+using FluentAssertions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,13 +31,12 @@ namespace btg_test
         }
 
         [Fact]
-        public void EncontrarMotoristas_ListaPreenchidaMenor18SemHabilitação_RetornaSucesso()
+        public void EncontrarMotoristas_ListaPreenchidaMenor18SemHabilitação_RetornaExcecao()
         {
             // Arrange
             List<Pessoa> pessoas = new List<Pessoa>
             {
-                new Pessoa { Nome = "João", Idade = 20, PossuiHabilitacaoB = false },
-                new Pessoa { Nome = "Carlos", Idade = 16, PossuiHabilitacaoB = false },
+                new Pessoa { Nome = "Carlos", Idade = 16, PossuiHabilitacaoB = false }
             };
             Motorista motoristas = new Motorista();
 
@@ -46,5 +46,38 @@ namespace btg_test
             // Assert
             Assert.Throws<Exception>(resultado);
         }
+
+        [Fact]
+        public void EncontrarMotoristas_ListaPreenchidaMaior18SemHabilitação_RetornaExcecao()
+        {
+            // Arrange
+            List<Pessoa> pessoas = new List<Pessoa>
+            {
+                new Pessoa { Nome = "João", Idade = 20, PossuiHabilitacaoB = false },
+                new Pessoa { Nome = "Carlos", Idade = 18, PossuiHabilitacaoB = false },
+            };
+            Motorista motoristas = new Motorista();
+
+            // Act
+            Action resultado = () => motoristas.EncontrarMotoristas(pessoas);
+
+            // Assert
+            Assert.Throws<Exception>(resultado);
+        }
+
+        [Fact]
+        public void EncontrarMotoristas_ListaSemMotorista_RetornaExcecao()
+        {
+            // Arrange
+            List<Pessoa> pessoas = new List<Pessoa>();
+            Motorista motoristas = new Motorista();
+
+            // Act
+            Action resultado = () => motoristas.EncontrarMotoristas(pessoas);
+
+            // Assert
+            resultado.Should().Throw<Exception>().WithMessage("A viagem não será realizada devido falta de motoristas!");
+        }
+
     }
 }

@@ -48,7 +48,7 @@ namespace btg_testes_auto
             {
                 return false;
             }
-            Assentos[posicao].Ocupado = true;
+            Assentos[posicao - 1].Ocupado = true;
             return true;
         }
 
