@@ -1,0 +1,24 @@
+﻿C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\AnaliseSuspeitosTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\CalculadoraTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\CartDiscountTest\CartServiceTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\ClienteDiscountTest\DiscountServiceTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\FuncionarioTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\LucroTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\MediaIdadesTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\MediaNotasTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\MeiaCinemaTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\MotoristaTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\NotificationEmailTest\NotificationServiceTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\NotificationMessageTest\NotificationMessageServiceTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\OrderTest\OrderServiceTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\PaylistsSongsTest\PlaylistServiceTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\ShippingCostTest\ShippingServiceTest.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\Usings.cs
+C:\Users\viana\OneDrive\Documentos\Grupo de estudos\btg\1038-TEST\btg-testes\btg-testes-auto\btg-test\VooTest.cs
+C:\Users\viana\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\viana\.nuget\packages\microsoft.testplatform.testhost\17.1.0\build\netcoreapp2.1\x64\testhost.exe
+C:\Users\viana\.nuget\packages\microsoft.testplatform.testhost\17.1.0\build\netcoreapp2.1\x64\testhost.dll
+C:\Users\viana\.nuget\packages\microsoft.testplatform.testhost\17.1.0\build\netcoreapp2.1\x64\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\viana\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\viana\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\viana\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll

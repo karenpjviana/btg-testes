@@ -10,6 +10,6 @@ namespace btg_testes_auto
     {
         public string Nome { get; set; }
         public int Idade { get; set; }
-        public bool PossuiHabilitaçãoB { get; set; }
+        public bool PossuiHabilitacaoB { get; set; }
     }
 }
